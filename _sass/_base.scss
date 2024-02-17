@@ -191,6 +191,25 @@ blockquote {
   }
 }
 
+.justify {
+  text-align: justify !important;
+}
+.section-subheading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.ul-edu {
+  list-style: none;
+  
+  li {
+    position: relative;
+    padding: 0 15px 1px 3px !important;
+  }
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
