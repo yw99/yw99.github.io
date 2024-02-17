@@ -84,8 +84,8 @@ layout: default
     {% endif %}
 
     <!-- Teaching -->
-    <div class="col-20 col-lg-20">
-      <h2>
+    {% if page.teaching %}
+      <h2 class="teaching_subtitle">
         <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">teaching assistant</a>
       </h2>
       <div class="teaching_subsection">
@@ -99,7 +99,7 @@ layout: default
           {% endfor %}
         </ul>
       </div>
-    </div>
+    {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts %}
