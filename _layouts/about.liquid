@@ -75,18 +75,36 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    {% comment %} <!-- News -->
+    <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
-    {% endif %} {% endcomment %}
+    {% endif %}
+
+    <!-- Teaching -->
+    <div class="col-20 col-lg-20">
+      <h2>
+        <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">teaching assistant</a>
+      </h2>
+      <div class="teaching_subsection">
+        <ul>
+          {% for teach in page.teaching %}
+            <li><i class="fa-li fa-solid"></i>
+              <div class="description">
+                <p class="teach">{% if teach.url %}<a href="{{ teach.url }}">{{ teach.course }}</a>{% else %}{{ teach.course }}{% endif %}, {{ teach.year }}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
     <!-- Latest posts -->
     {% if page.latest_posts %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">my posts for fun</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}

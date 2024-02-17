@@ -503,13 +503,13 @@ footer.sticky-bottom {
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
+  text-align: left;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 
   h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
+    color: var(--global-text-color);
+    font-size: 3rem;
   }
 }
 
@@ -652,10 +652,19 @@ footer.sticky-bottom {
   }
 }
 
+
+// Teaching
+.teaching_subsection {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
 // Publications
 
 .publications {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 
   h1 {
     color: var(--global-theme-color);

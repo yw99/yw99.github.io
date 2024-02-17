@@ -8,12 +8,12 @@ profile:
   align: right
   image: temp_profile_pic.png
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: <p>Yuxiao Wen (top)</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 interests:
   - "Bandit problems"
   - "Learning theory"
@@ -27,10 +27,18 @@ education:
   - course: "B.A. in Honors Math"
     institution: "New York University"
     year: "2017-2021"
+teaching:
+  - course: "MATH-UA 133: Math for Econ III"
+    year: "Spring 2024"
+  - course: "DS-GA 3001: Applied Statistics"
+    year: "Fall 2023"
+    url: "https://yanjunhan2021.github.io/courses/applied_stats/index.html"
 ---
 
 I am a current Ph.D. student in Computer Science in [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University. I am fortunate to be co-advised by [Yanjun Han](https://yanjunhan2021.github.io/) and [Zhengyuan Zhou](https://pages.stern.nyu.edu/~zzhou/index.html). My research is mainly on learning theory, with a particular focus on bandit problems.
 
 In 2021-23, I have been working on Scientific Machine Learning with Benjamin Peherstorfer. Prior to that, I received my B.A. in Math and in CS at New York University.
+
+Links to [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/) and [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ).
 
 You can contact me via email: yuxiaowen@nyu.edu
