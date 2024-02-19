@@ -37,7 +37,9 @@ teaching:
 
 I am a current Ph.D. student in Computer Science in [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University. I am fortunate to be co-advised by [Yanjun Han](https://yanjunhan2021.github.io/) and [Zhengyuan Zhou](https://pages.stern.nyu.edu/~zzhou/index.html). My research is mainly on learning theory, with a particular focus on bandit problems.
 
-In 2021-23, I have been working on Scientific Machine Learning with Benjamin Peherstorfer. Prior to that, I received my B.A. in Math and in CS at New York University.
+In 2021-23, I have been working on Scientific Machine Learning with Benjamin Peherstorfer. Prior to that, I received my B.A.s in Math and in CS at New York University and graduated with latin honor and department award (cf. my [CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen.pdf)).
+
+More about myself: I enjoy palying poker and city-walking in spare time. I love anything with matcha and dark chocolate. My favorite anime/manga are (alphabetical order) *Ajin*, *Alice in Borderland*, *Fire Punch*, *The Disastrous Life of Saiki K.*, and tons of others.
 
 Links to [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/) and [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ).
 
