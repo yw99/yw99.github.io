@@ -1,29 +1,26 @@
 ---
 layout: post
-title: a post with math
-date: 2015-10-20 11:12:00-0400
-description: an example of a blog post with some math
-tags: formatting math
-categories: sample-posts
+title: Should I clear my plate?
+date: 2024-02-22 11:12:00-0400
+description: clearing-plate is a vulnerable strategy
+tags: no-math
+categories: game-theory-perspective
 related_posts: false
 ---
 
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
+Clearing the plate has been an advocated act in my upbringing and an act that I faithfully sticked to. I had believed in that one should always clear the plate for various ethical reasons, e.g. not wasting social resources especially when many people around the world still starve, or simply saving some money for my family by wasting less.
 
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:
+Then my faithful strategy was penalized by the adversary in the dining table: when I was in the primary school, my mom, who believed I was overly lean and knew my clearing-plate strategy, deliberately cooked much more than the family could normally take every time. Then I quickly became over 2x heavier because I had to ate up everything.
 
-$$
-\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
-$$
+Until then I realized my strategy was so vulnerable in terms of my own utility. While I tried to act otherwise, I also tried to un-justify it, i.e. maybe clearing our plates is not that morally laudable. Indeed, conditioned on an excessive amount of food is served, taking a comfortable amount maximizes our (or just my) utility, because gaining more weight than wanted has a long-term effect and potentially large cost on emotion and time (to lose weight). If you're in a restaurant, they deal with waste anyway, so you add little marginal cost on them and on the society if the waste is dealt with properly.
 
-You can also use `\begin{equation}...\end{equation}` instead of `$$` for display mode math.
-MathJax will automatically number equations:
+It is however not saying we give up on saving food. I now believe the best practice is to ask everyone follow a good **ordering** (or cooking if at home) strategy:
 
-\begin{equation}
-\label{eq:cauchy-schwarz}
-\left( \sum*{k=1}^n a_k b_k \right)^2 \leq \left( \sum*{k=1}^n a*k^2 \right) \left( \sum*{k=1}^n b_k^2 \right)
-\end{equation}
+- Estimate roughly how much you (or the whole party) can comfortably consume;
+- Order (cook) 80~90% of your estimate;
+- Have a running estimate of how much you've ordered based on the served dishes;
+- Order more if you underestimated.
 
-and by adding `\label{...}` inside the equation environment, we can now refer to the equation using `\eqref`.
+Then you save everything including your money, the edible resources of the society, the resources for decomposing waste, etc. It's also always better to eat less than eat more, as you can obviously have snacks / desserts afterwards.
 
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
+Anyway, if we have lunch together, please don't order too much. Leaving too much on the table harms the utility of the society and has additional emotional cost on me.
