@@ -4,15 +4,16 @@ title: Inequality for norms of matrix producted with projection
 date: 2024-02-22 11:12:00-0400
 description: compare norms with projections between nested subspaces
 tags: all-math
-categories: game-theory-perspective
+categories: matrix-inequality
 related_posts: false
 ---
 
-Suppose we have an arbitrary $$m$$-by-$$n$$ matrix $$M$$ and any subspaces $$A\subseteq B$$ in $$n$$-dim. Let $$P_{A,B}$$ denote the projection matrix to $$A,B$$ respectively. We want to compare the norms of $$MP_A$$ and $$MP_B$$ that are related to the singular values.
+Suppose we have an arbitrary $$m​$$-by-$$n​$$ matrix $$M​$$ and any subspaces $$A\subseteq B​$$ in $$n​$$-dim. Let $$P_{A,B}​$$ denote the projection matrix to $$A,B​$$ respectively. We want to compare the norms of $$MP_A​$$ and $$MP_B​$$ that are related to the singular values.
 
 
 
 First and most obvious, the **operator norm** (induced by some arbitrary vector norm):
+
 
 
 $$
@@ -22,7 +23,9 @@ $$
 $$
 
 
-Second, the **Frobenius norm**, observe $MP_A=MP_BP_A​$:
+
+Second, the **Frobenius norm**, observe $$MP_A=MP_BP_A$$:
+
 
 
 $$
@@ -35,14 +38,17 @@ $$
 $$
 
 
+
 Third, the **nuclear norm** follows immediately from the above observation:
+
 
 
 $$
 \begin{align*}
-\|MP_BP_A\|_* \leq \|MP_B\|_*
+\|MP_A\|_* = \|MP_BP_A\|_* \leq \|MP_B\|_*
 \end{align*}
 $$
+
 
 
 since $$\|QV\|_*=\sum_i\sigma_i(QV)\leq \sum_i\sigma_i(Q)\|V\|_{op} = \|Q\|_*\|P\|_{op}$$ where operator norm gives the largest singular value.

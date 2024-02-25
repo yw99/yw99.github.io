@@ -35,7 +35,7 @@ teaching:
     url: "https://yanjunhan2021.github.io/courses/applied_stats/index.html"
 ---
 
-I am a current Ph.D. student in Computer Science in [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University. I am fortunate to be co-advised by [Yanjun Han](https://yanjunhan2021.github.io/) and [Zhengyuan Zhou](https://pages.stern.nyu.edu/~zzhou/index.html). My research is mainly on learning theory, with a particular focus on bandit problems.
+I am a current Ph.D. student in Computer Science in [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University. I am fortunate to be advised by Prof. [Yanjun Han](https://yanjunhan2021.github.io/) and Prof. [Zhengyuan Zhou](https://pages.stern.nyu.edu/~zzhou/index.html). My research is mainly on learning theory, with a particular focus on bandit problems.
 
 In 2021-23, I have been working on Scientific Machine Learning with Benjamin Peherstorfer. Prior to that, I received my B.A.s in Math and in CS at New York University and graduated with latin honor and department award (cf. my [CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen.pdf)).
 
