@@ -22,5 +22,3 @@ It is however not saying we give up on saving food. I now believe the best pract
 - Order more if you underestimated.
 
 Then you save everything including your money, the edible resources of the society, the resources for decomposing waste, etc. It's also always better to eat less than eat more, as you can obviously have snacks / desserts afterwards.
-
-Anyway, if we have lunch together, please don't order too much. Leaving too much on the table harms the utility of the society and has additional emotional cost on me.
