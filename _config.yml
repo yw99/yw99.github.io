@@ -72,7 +72,7 @@ x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: uXJoQCAAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -115,7 +115,7 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: AtHZIng0ehOjhsa8EaxDi-eey3v96UMNu9mZGOHI_iI # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
