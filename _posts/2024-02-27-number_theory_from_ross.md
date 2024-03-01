@@ -8,7 +8,7 @@ categories: number-theory
 related_posts: false
 ---
 
-Just for my own memory, here is a (very intuitive) lemma I struggled to prove in Ross in Huangshan where I stayed up super late with Xqy (to whom I'm grateful) discussing and eventually proving it. 
+Just for my own memory, here is a (very intuitive) lemma I struggled to prove in [Ross](https://rossprogram.org/) in Huangshan where I stayed up super late with Xqy (to whom I'm grateful) discussing and eventually proving it. 
 
 **Statement** as follows:
 
