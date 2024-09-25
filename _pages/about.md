@@ -28,6 +28,9 @@ education:
     institution: "New York University"
     year: "2017-2021"
 teaching:
+  - course: "DS-GA 3001: Applied Statistics"
+    year: "Fall 2024"
+    url: "https://yanjunhan2021.github.io/courses/applied_stats/index.html"
   - course: "MATH-UA 133: Math for Econ III"
     year: "Spring 2024"
   - course: "DS-GA 3001: Applied Statistics"
