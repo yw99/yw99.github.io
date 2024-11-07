@@ -46,4 +46,4 @@ More about myself: I enjoy playing poker and city-walking in spare time. I love 
 
 Links to [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/) and [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ).
 
-You can contact me via email: yuxiaowen@nyu.edu
+You can contact me via email: **yuxiaowen@nyu.edu**
