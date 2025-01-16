@@ -42,7 +42,7 @@ I am a Ph.D. candidate in Computer Science in [Courant Institute of Mathematical
 
 In 2021-23, I have been working on Scientific Machine Learning with Prof. Benjamin Peherstorfer. Prior to that, I received my B.A.s in Math and in CS at New York University and graduated with latin honor and department award (cf. my [CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen.pdf)).
 
-More about myself: I enjoy playing poker and city-walking in spare time. I love anything with matcha. My favorite anime/manga are (alphabetical order) *Ajin*, *Alice in Borderland*, *Fire Punch*, *Jojo 2-4*, *The Disastrous Life of Saiki K.*, and tons of others.
+More about myself: I (fortunately) have the most lovely cat in the world. I love anything with matcha. My favorite anime/manga are (alphabetical order) *Ajin*, *Alice in Borderland*, *Fire Punch*, *Jojo 2-4*, *The Disastrous Life of Saiki K.*, and tons of others.
 
 Links to [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/) and [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ).
 
