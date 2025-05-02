@@ -17,6 +17,7 @@ social: false # includes social icons at the bottom of the page
 interests:
   - "Bandit problems"
   - "Learning theory"
+  - "Online decision-making"
 education:
   - course: "Ph.D. in CS"
     institution: "New York University"
