@@ -63,7 +63,7 @@ layout: default
             {% for edu in page.education %}
             <li>
               <div class="description">
-                <p class="course">-- {{ edu.course, edu.institution, edu.year }}</p>
+                <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
               </div>
             </li>
             {% endfor %}
