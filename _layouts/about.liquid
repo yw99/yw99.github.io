@@ -40,14 +40,17 @@ layout: default
     
     <div class="clearfix">{{ content }}</div>
 
-    {% comment %} <div class="col-20 col-lg-20">
+    <div class="col-20 col-lg-20">
       <p class="justify">{{ page.research }}</p>
       <div class="row">
         <div class="col-md-5">
           <div class="section-subheading">Interests</div>
             <ul class="ul-interests fa-ul mb-0">
           {% for interest in page.interests %}
-              <li><i class="fa-li fa-solid fa-book"></i>{{ interest }}</li>
+              <li><i class="fa-li fa-solid fa-book"></i>
+              <div class="description">
+                <p class="interest">{{ interest }}</p>
+              </div>
           {% endfor %}
             </ul>
         </div>
@@ -56,7 +59,7 @@ layout: default
           <div class="section-subheading">Education</div>
           <ul class="ul-edu fa-ul mb-0">
             {% for edu in page.education %}
-            <li><i class="fa-li fa-solid fa-graduation-cap"></i>
+              <li><i class="fa-li fa-solid fa-graduation-cap"></i>
               <div class="description">
                 <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
               </div>
@@ -65,27 +68,7 @@ layout: default
           </ul>
         </div>
       </div>
-    </div> {% endcomment %}
-
-    <ul class="ul-interests fa-ul mb-0">
-      {% for interest in page.interests %}
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-book" aria-hidden="true"></i></span>
-          {{ interest }}
-        </li>
-      {% endfor %}
-    </ul>
-
-    <ul class="ul-edu fa-ul mb-0">
-      {% for edu in page.education %}
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
-          <div class="description">
-            <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+    </div>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
