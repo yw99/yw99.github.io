@@ -50,7 +50,7 @@ layout: default
               {% comment %} <li><i class="fa-li fa-solid fa-book"></i>{{ interest }}</li> {% endcomment %}
               <li>
               <div class="description">
-                <p class="interest">-- {{ interest }}</p>
+                <p class="interest">{{ interest }}</p>
               </div>
               </li>
           {% endfor %}
@@ -63,7 +63,7 @@ layout: default
             {% for edu in page.education %}
             <li>
               <div class="description">
-                <p class="course">-- {{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
+                <p class="course">-- {{ edu.course, edu.institution, edu.year }}</p>
               </div>
             </li>
             {% endfor %}
@@ -75,7 +75,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
