@@ -59,11 +59,11 @@ layout: default
           <div class="section-subheading">Education</div>
           <ul class="ul-edu fa-ul mb-0">
             {% for edu in page.education %}
-              <span class="fa-li"><i class="fa-solid fa-graduation-cap">
-                <div class="description">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>
+              <div class="description">
                 <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
               </div>
-              </i></span>
               {% comment %} <li><i class="fa-li fa-solid fa-graduation-cap"></i>
               <div class="description">
                 <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
