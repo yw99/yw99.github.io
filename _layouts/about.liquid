@@ -40,39 +40,27 @@ layout: default
     
     <div class="clearfix">{{ content }}</div>
 
-    {% comment %} <div class="col-20 col-lg-20">
+    <div class="col-20 col-lg-20">
       <p class="justify">{{ page.research }}</p>
       <div class="row">
         <div class="col-md-5">
           <div class="section-subheading">Interests</div>
-            <ul class="fa-ul ul-interests mb-0">
+            <ul class="ul-interests fa-ul mb-0">
           {% for interest in page.interests %}
-<<<<<<< HEAD
-            <li>
-              {% comment %} <li><i class="fa-li fa-solid fa-book"></i> {% endcomment %}
+              <li><i class="fa-li fa-solid fa-book"></i>
               <div class="description">
-                <i class="fa-li fa-solid fa-book"></i>
                 <p class="interest">{{ interest }}</p>
               </div>
-            </li>
-=======
-              <li><i class="fa-li fa-solid fa-book"></i>{{ interest }}</li>
->>>>>>> parent of d77b1c1 (change section)
           {% endfor %}
             </ul>
         </div>
         
         <div class="col-md-7">
           <div class="section-subheading">Education</div>
-          <ul class="fa-ul ul-edu mb-0">
+          <ul class="ul-edu fa-ul mb-0">
             {% for edu in page.education %}
-<<<<<<< HEAD
-            <li>
-=======
-            <li><i class="fa-li fa-solid fa-graduation-cap"></i>
->>>>>>> parent of d77b1c1 (change section)
+              <li><i class="fa-li fa-solid fa-graduation-cap"></i>
               <div class="description">
-                <i class="fa-li fa-solid fa-graduation-cap"></i>
                 <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
               </div>
             </li>
@@ -80,32 +68,12 @@ layout: default
           </ul>
         </div>
       </div>
-    </div> {% endcomment %}
-
-    <ul class="ul-interests fa-ul mb-0">
-      {% for interest in page.interests %}
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-book" aria-hidden="true"></i></span>
-          {{ interest }}
-        </li>
-      {% endfor %}
-    </ul>
-
-    <ul class="ul-edu fa-ul mb-0">
-      {% for edu in page.education %}
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
-          <div class="description">
-            <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+    </div>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
