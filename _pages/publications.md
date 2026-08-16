@@ -9,7 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 <div class="publications">
-Also see <a href="https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ" target="_blank">Google Scholar</a>. * marks equal contribution.
+Also see <a href="https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ" target="_blank">Google Scholar</a>. * marks equal contribution; <sup>αβ</sup> marks alphabetical author order.
 {% bibliography %}
 
 </div>

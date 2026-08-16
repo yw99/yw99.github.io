@@ -49,6 +49,7 @@
     </div>
     <!-- Author -->
     <div class="author">
+      {% if entry.author_order %}<sup>{{ entry.author_order }}</sup>&nbsp;{% endif %}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
