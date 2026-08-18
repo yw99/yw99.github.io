@@ -15,8 +15,8 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 interests:
-  - "Bandit problems"
-  - "Learning theory"
+  - "Reinforcement learning"
+  - "Contextual bandits"
   - "Online decision-making"
 education:
   - course: "Ph.D. in CS"
@@ -39,7 +39,7 @@ teaching:
     url: "https://yanjunhan2021.github.io/courses/applied_stats/index.html"
 ---
 
-I am a Ph.D. candidate in Computer Science in [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University. I am fortunate to be advised by Prof. [Yanjun Han](https://yanjunhan2021.github.io/) and Prof. [Zhengyuan Zhou](https://pages.stern.nyu.edu/~zzhou/index.html). My research is mainly on learning theory, with a particular focus on bandit problems.
+I am a Ph.D. candidate in Computer Science in [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University. I am fortunate to be advised by Prof. [Yanjun Han](https://yanjunhan2021.github.io/) and Prof. [Zhengyuan Zhou](https://pages.stern.nyu.edu/~zzhou/index.html). My research primarily focuses on reinforcement learning and decision-making, both on theory and applications. In particular, it spans post training, contextual bandits, and counterfactual estimation.
 
 In 2021-23, I have been working on Scientific Machine Learning with Prof. Benjamin Peherstorfer. Prior to that, I received my B.A.s in Math and in CS at New York University and graduated with latin honor and department award (cf. my [CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen.pdf)).
 
