@@ -40,7 +40,7 @@ layout: default
     
     <div class="clearfix">{{ content }}</div>
 
-    <div class="col-20 col-lg-20">
+    <div class="col-20 col-lg-20 mb-4">
       <p class="justify">{{ page.research }}</p>
       <div class="row">
         <div class="col-md-5">
@@ -75,10 +75,12 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    {% include ongoing_works.liquid %}
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -91,7 +93,7 @@ layout: default
     <!-- Teaching -->
     {% if page.teaching %}
       <h2 class="teaching_subtitle">
-        <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">teaching assistant</a>
+        <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">Teaching assistant</a>
       </h2>
       <div class="teaching_subsection">
         <ul>

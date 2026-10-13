@@ -1,0 +1,6 @@
+<section class="ongoing-works my-4" aria-labelledby="ongoing-works-heading">
+  <h2 id="ongoing-works-heading">Ongoing works</h2>
+  <div class="publications">
+    {% bibliography --group_by none --query @*[ongoing=true]* %}
+  </div>
+</section>
