@@ -159,17 +159,22 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% if entry.month %}
+    {% assign entrymonth = '' %}
+    {% assign entryyear = '' %}
+    {% if entry.month and entry.ongoing != 'true' %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
-    {% if entry.year %}
+    {% if entry.year and entry.ongoing != 'true' %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {{ periodical | strip }}
-    </div>
+    {% assign periodical_text = periodical | strip_html | strip %}
+    {% if periodical_text != '' %}
+      <div class="periodical">
+        {{ periodical | strip }}
+      </div>
+    {% endif %}
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
