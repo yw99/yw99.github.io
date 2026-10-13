@@ -244,6 +244,19 @@ blockquote {
   }
 }
 
+.post-description.publications-description {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+
+  a {
+    color: var(--global-theme-color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 // Navbar customization
 
 .navbar {
@@ -665,6 +678,10 @@ footer.sticky-bottom {
 
 
 // Publications
+
+.chronological-publications > h2.bibliography:first-child {
+  margin-top: 1rem;
+}
 
 .publications {
   margin-top: 2rem;

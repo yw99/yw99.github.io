@@ -1,6 +1,6 @@
-<section class="ongoing-works my-4" aria-labelledby="ongoing-works-heading">
-  <h2 id="ongoing-works-heading">Ongoing works</h2>
-  <div class="publications">
+<section class="ongoing-works my-3" aria-labelledby="ongoing-works-heading">
+  <h2 id="ongoing-works-heading">{{ include.title | default: 'Ongoing works' }}</h2>
+  <div class="publications mt-2 mb-0">
     {% bibliography --group_by none --query @*[ongoing=true]* %}
   </div>
 </section>
