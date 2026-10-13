@@ -49,4 +49,6 @@ Links to [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/) and [Goog
 
 My [CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_academic.pdf).
 
+<p><strong class="text-danger">I'm graduating in 2027 and seeking full-time roles!</strong></p>
+
 You can contact me via email: **yuxiaowen@nyu.edu**
