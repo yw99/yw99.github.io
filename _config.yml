@@ -48,6 +48,14 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 
+# Extra navbar entries shown after the pages, for links that are not site pages
+# (PDFs, external profiles). Rendered by _includes/header.liquid.
+navbar_links:
+  - title: cv
+    url: /assets/pdf/Curriculum_Vitae_Yuxiao_Wen_academic.pdf
+  - title: google scholar
+    url: https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ
+
 # Dimensions
 max_width: 800px
 

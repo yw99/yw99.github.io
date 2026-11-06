@@ -38,49 +38,67 @@ layout: default
       </div>
     {% endif %}
     
+    <!-- Biography & contact -->
     <div class="clearfix">{{ content }}</div>
 
-    <div class="col-20 col-lg-20 mb-4">
-      <p class="justify">{{ page.research }}</p>
-      <div class="row">
-        <div class="col-md-5">
-          <div class="section-subheading">Interests</div>
-            <ul class="ul-interests mb-0">
+    <!-- Research interests -->
+    {% if page.interests %}
+      <section class="home-section" aria-labelledby="research-interests-heading">
+        <h2 id="research-interests-heading">Research interests</h2>
+        <div class="row">
           {% for interest in page.interests %}
-              {% comment %} <li><i class="fa-li fa-solid fa-book"></i>{{ interest }}</li> {% endcomment %}
-              <li>
-              <div class="description">
-                <p class="interest">{{ interest }}</p>
-              </div>
-              </li>
+            <div class="col-md-6 interest-area">
+              <p class="interest-name">{{ interest.area }}</p>
+              <p class="interest-topics">{{ interest.topics }}</p>
+            </div>
           {% endfor %}
-            </ul>
         </div>
-        
-        <div class="col-md-7">
-          <div class="section-subheading">Education</div>
-          <ul class="ul-edu mb-0">
-            {% for edu in page.education %}
+      </section>
+    {% endif %}
+
+    <!-- Industry experience -->
+    {% if page.industry %}
+      <section class="home-section" aria-labelledby="industry-heading">
+        <h2 id="industry-heading">Industry experience</h2>
+        {% if page.industry.resume %}
+          <p class="industry-resume">
+            <a href="{{ page.industry.resume | relative_url }}">Industry Resume (PDF)</a>
+          </p>
+        {% endif %}
+        <ul class="industry-list">
+          {% for position in page.industry.positions %}
             <li>
-              <div class="description">
-                <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
+              <div class="industry-header">
+                <span><strong>{{ position.role }}</strong>, {{ position.company }}</span>
+                <span class="industry-date">{{ position.year }}</span>
               </div>
+              {% if position.keywords or position.links %}
+                <div class="industry-keywords">
+                  {{ position.keywords }}
+                  {% for link in position.links %}
+                    <a href="{{ link.url }}" class="industry-link">[{{ link.name }}]</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
             </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="home-section" aria-labelledby="selected-publications-heading">
+        <h2 id="selected-publications-heading">
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+        <p class="view-all-publications">
+          <a href="{{ '/publications/' | relative_url }}">Full publication list &rarr;</a>
+          (ICML, NeurIPS, ICLR, AISTATS, and more)
+        </p>
+      </section>
     {% endif %}
-
-    {% include ongoing_works.liquid %}
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -90,22 +108,53 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Teaching -->
-    {% if page.teaching %}
-      <h2 class="teaching_subtitle mt-3">
-        <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">Teaching assistant</a>
-      </h2>
-      <div class="teaching_subsection">
-        <ul>
-          {% for teach in page.teaching %}
-            <li><i class="fa-li fa-solid"></i>
-              <div class="description">
-                <p class="teach">{% if teach.url %}<a href="{{ teach.url }}">{{ teach.course }}</a>{% else %}{{ teach.course }}{% endif %}, {{ teach.year }}</p>
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+    <!-- Education & teaching -->
+    {% if page.education or page.teaching %}
+      <section class="home-section" aria-labelledby="education-teaching-heading">
+        <h2 id="education-teaching-heading">Education &amp; teaching</h2>
+        <div class="row">
+          {% if page.education %}
+            <div class="col-md-6">
+              <h3 class="section-subheading">Education</h3>
+              <ul class="ul-edu mb-0">
+                {% for edu in page.education %}
+                  <li>
+                    <div class="description">
+                      <p class="course">{{ edu.course }}, {{ edu.institution }}, {{ edu.year }}</p>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+          {% if page.teaching %}
+            <div class="col-md-6">
+              <h3 class="section-subheading">
+                <a href="{{ '/teaching/' | relative_url }}" style="color: inherit">Teaching assistant</a>
+              </h3>
+              <ul class="ul-edu mb-0">
+                {% for teach in page.teaching %}
+                  <li>
+                    <div class="description">
+                      <p class="teach">
+                        {% if teach.url %}<a href="{{ teach.url }}">{{ teach.course }}</a>{% else %}{{ teach.course }}{% endif %}, {{ teach.year }}
+                      </p>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- About me -->
+    {% if page.about_me %}
+      <section class="home-section" aria-labelledby="about-me-heading">
+        <h2 id="about-me-heading">About me</h2>
+        {{ page.about_me | markdownify }}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->

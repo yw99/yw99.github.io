@@ -1,0 +1,10 @@
+# Local-preview overrides, layered on top of _config.yml by bin/preview:
+#   jekyll serve --config _config.yml,_config.dev.yml
+# The GitHub Actions deploy builds with _config.yml only, so nothing here
+# affects the live site.
+
+# ImageMagick is not installed locally. With this disabled, figure.liquid
+# serves the original images instead of pointing at -480/-800/-1400.webp
+# variants that would never be generated (which shows up as broken images).
+imagemagick:
+  enabled: false

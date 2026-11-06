@@ -12,7 +12,7 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-{% include ongoing_works.liquid title="ongoing works" %}
+{% include ongoing_works.liquid title="ongoing works" class="section-divider my-3" %}
 
 <div class="publications chronological-publications mt-3">
 {% bibliography --query @*[ongoing!=true]* %}

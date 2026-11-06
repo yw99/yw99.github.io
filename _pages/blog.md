@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false # hidden from the navbar; the page is still reachable at /blog/
 nav_order: 1
 pagination:
   enabled: true

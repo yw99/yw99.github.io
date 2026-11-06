@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Serve the site locally with live reload.
+#
+#   bin/preview          # http://localhost:4000
+#   bin/preview 4001     # custom port
+#
+# Uses Homebrew's Ruby (the system Ruby 2.6 / rbenv 2.6.3 are too old for
+# Jekyll 4.3) and layers _config.dev.yml on top of _config.yml.
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+# Without a UTF-8 locale Ruby reads the .bib file as US-ASCII and the
+# build fails with "invalid byte sequence in US-ASCII".
+export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
+
+if command -v brew >/dev/null 2>&1; then
+  ruby_prefix="$(brew --prefix ruby 2>/dev/null || true)"
+  if [ -n "$ruby_prefix" ] && [ -x "$ruby_prefix/bin/ruby" ]; then
+    export PATH="$ruby_prefix/bin:$PATH"
+  fi
+fi
+export PATH="$(ruby -e 'print Gem.bindir'):$PATH"
+
+port="${1:-4000}"
+
+bundle check >/dev/null 2>&1 || bundle install
+
+exec bundle exec jekyll serve \
+  --config _config.yml,_config.dev.yml \
+  --port "$port" \
+  --livereload

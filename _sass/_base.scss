@@ -203,10 +203,73 @@ blockquote {
 
 .ul-edu {
   list-style: none;
-  
+
   li {
     position: relative;
     padding: 0 15px 1px 3px !important;
+  }
+}
+
+// Homepage sections (_layouts/about.liquid)
+.home-section {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.interest-area {
+  margin-bottom: 0.75rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .interest-name {
+    font-weight: 700;
+  }
+
+  .interest-topics {
+    color: var(--global-text-color-light);
+  }
+}
+
+.industry-resume {
+  margin-bottom: 0.75rem;
+}
+
+.industry-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li {
+    margin-bottom: 0.75rem;
+  }
+
+  .industry-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 1rem;
+  }
+
+  .industry-date,
+  .industry-keywords {
+    color: var(--global-text-color-light);
+  }
+
+  .industry-keywords {
+    font-size: 0.9rem;
+  }
+}
+
+.view-all-publications {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+
+  a {
+    font-weight: 700;
   }
 }
 
@@ -676,11 +739,36 @@ footer.sticky-bottom {
   margin-top: 2rem;
 }
 
+// Teaching page (_pages/teaching.md)
+.course-title {
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.course-meta,
+.course-keywords {
+  color: var(--global-text-color-light);
+}
+
+.course-meta {
+  margin-bottom: 0.5rem;
+}
+
+.course-keywords {
+  font-size: 0.9rem;
+}
+
 
 // Publications
 
 .chronological-publications > h2.bibliography:first-child {
   margin-top: 1rem;
+}
+
+// Thin rule above a block, spaced like the year dividers below it
+.section-divider {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
 }
 
 .publications {
