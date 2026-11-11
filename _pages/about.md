@@ -79,6 +79,6 @@ More recently, I have been exploring reliable LLM post-training and evaluation u
 
 <p><strong class="text-danger">I'm graduating in 2027 and seeking full-time roles!</strong></p>
 
-[CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_academic.pdf) · [Resume](/assets/pdf/Resume_Yuxiao_Wen.pdf) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/)
+[CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_academic.pdf) · [Resume](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_industry_ads_2pager.pdf) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/)
 
 Email: **yuxiaowen@nyu.edu**
