@@ -31,7 +31,7 @@ interests:
   - area: "Reliable AI & LLM Post-training"
     topics: "Policy improvement, constrained self-improvement, evaluation"
 industry:
-  resume: /assets/pdf/Resume_Yuxiao_Wen.pdf
+  resume: /assets/pdf/Curriculum_Vitae_Yuxiao_Wen_industry_ads_2pager.pdf
   positions:
     - role: "Applied Scientist Intern"
       company: "Amazon Web Services"
