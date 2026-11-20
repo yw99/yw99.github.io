@@ -31,7 +31,7 @@ interests:
   - area: "Reliable AI & LLM Post-training"
     topics: "Policy improvement, constrained self-improvement, evaluation"
 industry:
-  resume: /assets/pdf/Curriculum_Vitae_Yuxiao_Wen_industry_ads.pdf
+  resume: /assets/pdf/Yuxiao_Wen_Resume.pdf
   positions:
     - role: "Applied Scientist Intern"
       company: "Amazon Web Services"
@@ -79,6 +79,6 @@ More recently, I have been exploring reliable LLM post-training and evaluation u
 
 <p><strong class="text-danger">I'm graduating in 2027 and seeking full-time roles!</strong></p>
 
-[CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_academic.pdf) · [Resume](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_industry_ads.pdf) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/)
+[CV](/assets/pdf/Curriculum_Vitae_Yuxiao_Wen_academic.pdf) · [Resume](/assets/pdf/Yuxiao_Wen_Resume.pdf) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=uXJoQCAAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yuxiao-wen-4b3162161/)
 
 Email: **yuxiaowen@nyu.edu**
